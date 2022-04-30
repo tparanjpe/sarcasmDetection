@@ -33,10 +33,10 @@ if __name__ == '__main__':
     #     status_ids = [print(row[0]) for row in list(reader)[1:]]
 
     # Create tweepy API instance with env keys
-    consumer_key = "NPfMmOFweUb3nH3Te1gYClU0C"
-    consumer_secret = "Dwo8LZPaCzWmpy4uJO1es405vfghNCCTE4ghqs2aTSONv3TCoK"
-    access_token = "1387286272993992708-0cIUIGHfSyCRWHhjHyETMuvp1I89RX"
-    access_token_secret = "RltjUPZfPeWexivV1XlVH8wsXvUbeJqypXOn6afdYnBZS"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = ""
+    access_token_secret = ""
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
